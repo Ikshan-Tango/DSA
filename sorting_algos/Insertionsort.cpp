@@ -25,6 +25,7 @@ void insertionsort(int arr[])
             swap(arr[j+1],arr[j]);
             j--;
         }
+
         arr[j+1]=current;
     }
 

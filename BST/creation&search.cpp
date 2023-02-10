@@ -20,7 +20,8 @@ node* insertBST(node* root,int val)
     if(root==NULL)
     {
         node* n= new node(val);
-        return n;
+        root=n;
+        return root;
     }
 
     if(val>root->data)
